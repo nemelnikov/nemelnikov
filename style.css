@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    background-image: linear-gradient(to top,#f0f0f0,#dddddd);
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    color: #5a5a5a;
+}
+h2{
+    padding: 3% 0;
+    font-size: 1.875em;
+    font-family:'zaplyvheavy', Helvetica, sans-serif;
+}
+header{
+    position: relative;
+    width: 90%;
+    margin: 5% auto 0;
+}
+.io{
+    font-style: italic;
+    color: #898989;
+}
+.o{
+    padding-left: 2%;
+}
+.logo{
+    display: block;
+    height: 79px;
+    width: 318px;
+    background-image: url(img/logo2.png);
+    background-repeat: no-repeat;
+}
+#quote{
+    position:absolute;
+    left: 35%;
+    top: 50%;
+    font-style: italic;
+    color: #828282;
+}
+main{
+    width:70%;
+    margin: 3% auto;
+}
+.allblocks{
+    margin: 3% auto;
+}
+.block{
+    display: inline-block;
+    width: 30%;
+    margin-right: 3%;
+    box-sizing:border-box;
+    vertical-align: top;
+    line-height: 1.15;
+}
+.block:last-child{
+    margin-right: 0;
+    padding-right: 0;
+}
+.block a:hover{
+    color: #c41e3a;
+}
+.block a:active{
+    color: #7b3f00;
+}
+.block a:visited{
+    /*color: #1e90ff;*/
+}
+.imgrotate:hover{
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+}
+.write{
+    color: #217f00;
+}
+.photo{
+    color: #773800;
+}
+.more{
+    color: #007077;
+}
+.links{
+   /* width: 65%;*/
+    margin: 6% auto 0;
+    padding: 0;
+    color: #6b0000;
+}
+.photolinks{
+    width: 80%;
+    margin: 0 auto 6%;
+    text-align: center;
+}
+.photolinks a{
+    display: inline-block;
+    margin-bottom:3%;
+    margin-right:3%;
+}
+.photolinks a:hover{
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+}
+
+
+.projects{
+    width: 43%;
+    float: left;
+}
+
+.projects a{
+    color: #100061;
+}
+.projects-color{
+    color: #100061;
+}
+.publications{
+    width: 43%;
+    float: right;
+}
+.publications-color{
+    color: #67014D;
+}
+.publications a{
+    color: #67014D;
+}
+ul{
+    margin-left: 4%;
+}
+footer{
+    width: 70%;
+    margin: 3% auto;
+}
+footer a:hover{
+    color: #c41e3a;
+}
+footer a:active{
+    color: #7b3f00;
+}
+footer a:visited{
+  /*  color: #1e90ff; */
+}
+.clearfix:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+@font-face{
+    font-family:'zaplyvheavy';
+    src: url('img/zaplyv-heavy-webfont.eot');
+    src: url('img/zaplyv-heavy-webfont.eot?#iefix') format('embedded-opentype'), url('img/zaplyv-heavy-webfont.woff') format('woff'), url('img/zaplyv-heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.mobile{
+    display: none;
+}

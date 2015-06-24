@@ -1,0 +1,168 @@
+.layout1 { 
+    position: absolute;	/* Абсолютное позиционирование */
+    width: 900px; /* Ширина слоя в пикселах */
+    height: 800px; /* Высота слоя в пикселах */
+    left: 50%; /* Положение слоя от левого края */
+    top: 50%; /* Положение слоя от верхнего края */
+    *margin-left: -450px; /* О1ступ слева */
+    *margin-top: -400px;	/* Отступ сверху */
+    padding: 10px; /* Поля вокруг текста */
+    overflow: auto; /* Добавление полосы прокрутки */ 
+   }
+
+.header {
+  position: absolute;
+  width: 750px;
+  height: 500px;
+  top: 100px;
+}
+
+.logo {
+  position: absolute;
+  top: 45px;
+  left: 10px;
+  background-image: url(logo2.png);
+  height:79px;
+  width:318px;
+}
+
+.quote {
+  position: absolute;  
+  top: 45px;
+  left: 381px;
+  height: 79px;
+  font-size: 16px;
+  line-height:79px;
+  font-style: italic;
+  color: #828282;
+  
+}
+
+.headerfio{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.it {
+  font-style: italic;
+  color: #898989;
+}
+
+.itt {
+  font-style: italic;
+  padding-left: 20px;
+  color: #898989;
+}
+
+.layout2 { 
+   position: absolute;	/* Абсолютное позиционирование */
+    width: 750px; /* Ширина слоя в пикселах */
+    height: 500px; /* Высота слоя в пикселах */
+    *left: 50%; /* Положение слоя от левого края */
+    top: 215px; /* Положение слоя от верхнего края */
+    *margin-left: -375px; /* О1ступ слева */
+    *margin-top: -250px;	/* Отступ сверху */
+	margin-left: 120px;
+    *padding: 10px; /* Поля вокруг текста */
+    overflow: auto; /* Добавление полосы прокрутки */ 
+   }
+   
+
+@font-face {
+    font-family: 'zaplyvheavy';
+    src: url('zaplyv-heavy-webfont.eot');
+    src: url('zaplyv-heavy-webfont.eot?#iefix') format('embedded-opentype'),
+         url('zaplyv-heavy-webfont.woff') format('woff'),
+         url('zaplyv-heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  
+
+}
+
+.block {
+    position: relative;
+    float: left;
+    padding: 10px;
+    *margin: 10px;
+    width: 225px;
+    *height: 230px;
+    *border: 2px solid #E81E25;
+}
+
+.photolinks {
+    position: absolute;
+    padding: 10px;
+    *margin: 10px;
+    top: 520px;
+    width: 750px;
+	margin-left: 120px;
+}
+
+.cent {
+  align='center';
+}
+
+.ill {
+	padding-top: 10px;
+    margin-left: -10px;
+}
+
+
+
+body {
+    background-color: #e5e5e5;
+    *background: linear-gradient (bottom, #e0e0e0, #eeeeee);
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  color: #5a5a5a;
+}
+
+
+A IMG { 
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+	margin-left: -18px;
+    border: none;
+}
+
+a.write {
+    color: #217f00;
+}
+a.photo {
+    color: #773800;
+}
+a.more {
+    color: #007077;
+}
+h2 {
+    font-size: 24px;
+    font-family: 'zaplyvheavy', Helvetica, sans-serif;
+}
+
+h2.write {
+    color: #217f00;
+}
+h2.photo {
+    color: #773800;
+}
+h2.more {
+    color: #007077;
+}
+h2.links {
+    color: #6b0000;
+  margin-bottom: -20px; 
+}
+
+.content {
+    width: 900px; /* Ширина слоя */
+    margin: 0 auto 50px; /* Выравнивание по центру */
+ }
+ .footer {
+    position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    width: 15%; /* Ширина слоя */
+}

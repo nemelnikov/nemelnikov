@@ -1,0 +1,130 @@
+body {
+	padding-top: 10px;
+	font-family: 'PT Sans', sans-serif;
+	font-size: 18px;
+}
+body a{
+	text-decoration: underline;
+}
+.container{
+	width: 1000px;
+}
+.nav-tabs{
+	padding: 20px 0;
+	border: none;
+}
+.nav-tabs > li > a{
+	padding: 15px 15px;
+	margin: 0;
+	line-height: 24px;
+	font-size: 24px;
+	color: #0072a2;
+}
+.navbar-brand{
+	padding-left: 0;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 24px;
+	text-decoration: none;
+	color: #424242;
+}
+.navbar-text{
+	padding: 16px 0;
+	margin: 0;
+  	line-height: 24px;
+	color: #393838;
+}
+.phone{
+	padding-left: 10px;
+	font-size: 24px;
+	color: #3c3c3c;
+}
+.phone b{
+	padding-left: 10px;
+}
+.central-block{
+	background-color: #0072a2;
+	color: #ffffff;
+}
+.hero-unit h1{
+	padding-top: 60px;
+	font-size: 48px;
+	font-weight: bold;
+	text-shadow: 0 2px 2px #005072;
+}
+.img-responsive{
+	border: 1px solid #0072a2;
+}
+.feature{
+	padding: 25px 0;
+	background-color: #a8c507;
+	color: #ffffff;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+.about{
+	padding-top: 30px;
+}
+h2{
+	font-size: 36px;
+	font-weight: bold;
+	border-bottom: 3px solid #2c2c2c;
+	color: #2c2c2c;
+}
+.col-md-6 p{
+	color: #2c2c2c;
+}
+h3{
+	padding: 25px 0;
+	font-weight: bold;
+	font-style: italic;
+	color: #636363;
+}
+.btn-default{
+    background-color: #fa4242;
+    border: none;
+    border-bottom: 3px solid #a01010;
+    font-size: 24px;
+    color: #ffffff;
+}
+.info{
+	margin:50px 0;
+	padding: 35px 0;
+	border-top: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+}
+h5{
+	padding-left: 30px;
+	font-size: 24px;
+	color: #222121;
+}
+.info ul{
+	list-style: none;
+	padding-left: 0;
+}
+.info li{
+	padding-left: 30px;
+	background-image: url(../img/img2.png);
+	background-repeat: no-repeat;
+	background-position: 0 15px;
+}
+.info li a{
+	font-size: 20px;
+	color: #0075b8;
+}
+footer p{
+	font-size: 14px;
+	color: #393838;
+}
+footer p a{
+	color: #0072a2;
+}
+table{
+    width: 250px;
+}
+.btn-center{
+	width: 295px;
+	margin: 50px auto;
+}

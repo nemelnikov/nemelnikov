@@ -1,0 +1,179 @@
+body{
+    background-color: #e5e5e5;
+    font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #5a5a5a;
+    overflow-x:hidden;
+}
+.header{
+ 
+width:1000px;
+    margin:0 auto;
+margin-top: 75px;
+}
+.io{
+    font-style: italic;
+    color: #898989;
+}
+.o{
+    padding-left: 20px;
+}
+.logo{
+    background-image: url(logo2.png);
+    height: 79px;
+    width: 318px;
+}
+.quote{
+    position: relative;
+    left: 381px;
+    top: -60px;
+    font-size: 16px;
+    font-style: italic;
+    color: #828282;
+}
+.allblocks{
+    width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block{
+    display: inline-block;
+    margin: 20px;
+    width: 28%;
+    height: 250px;
+    vertical-align: top;
+}
+a.write{
+    color: #217f00;
+}
+a.photo{
+    color: #773800;
+}
+a.more{
+    color: #007077;
+}
+@font-face {
+    font-family:'zaplyvheavy';
+    src: url('zaplyv-heavy-webfont.eot');
+    src: url('zaplyv-heavy-webfont.eot?#iefix') format('embedded-opentype'), url('zaplyv-heavy-webfont.woff') format('woff'), url('zaplyv-heavy-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.photolinks {
+    width: 750px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+}
+a img {
+    padding: 20px;
+    margin-left: -18px;
+}
+h2 {
+    font-size: 24px;
+    font-family:'zaplyvheavy', Helvetica, sans-serif;
+}
+h2.write {
+    color: #217f00;
+}
+h2.photo {
+    color: #773800;
+}
+h2.more {
+    color: #007077;
+}
+h2.links {
+    color: #6b0000;
+    margin-bottom: -20px;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    width: 15%;
+}
+.imgray:hover{
+    -webkit-filter: grayscale(100%);
+}
+.imgrotate:hover{
+-webkit-transform: rotate(-30deg);
+}
+.mobile{
+    display: none;
+}
+a:hover {
+color: #999999;
+}
+
+@media (max-width: 500px) {
+
+body {
+ 
+font-size: 12px;
+
+padding: 5px;
+
+}
+
+.logo {
+width: 250px;
+left: 10px;
+
+}
+
+.quote {
+font-size: 10px;
+
+left: 255px;
+
+}
+
+.allblocks {
+display: none;
+
+}
+
+.photolinks {
+display: none;
+
+}
+.mobile {
+display: block;
+}
+a:link{
+color: #1e90ff;
+text-decoration: none;
+}
+a:active{
+color: #396b9c;
+}
+a:visited{
+color: #1e90ff;
+}
+}
+
+.wedd-content{
+	width:900px;
+	margin:0 auto;
+	padding:30px;
+	border:3px dotted #c2c2c2;
+}
+.wedd-title{
+	margin:0;
+	padding:0;
+	margin-top:25px;
+	margin-bottom:10px;
+	font-size:30px;
+	font-family:'Lobster', cursive;
+}
+.wedd-text{
+	margin:0;
+	padding:0;
+	font-size:20px;
+	font-family:'Roboto Slab', serif;
+}
+.wedd-a{
+	color:black;
+	font-style:italic;
+}
